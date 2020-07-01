@@ -71,6 +71,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
+                <h1>Selamat datang {{ $nama }}</h1>
                     Laravel
                 </div>
             </div>

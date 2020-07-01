@@ -12,10 +12,12 @@ class AuthController extends Controller
 
     public function PostRegister(Request $request){
         $nama = $request['nama'];
-        return "nama";
+        return view('pages.welcome',['nama' => $nama]);
     }
 
-    public function ShowWelcome(){
-        return view('pages.welcome');
-    }
+    public function ShowWelcome(Request $request){
+        $nama = $request['nama'];
+        return view('pages.welcome',['nama' => $nama]);
+    }   
+
 }

@@ -47,9 +47,8 @@
                 </tr>
                 <tr>
                     <td>
-                        <form action="/welcome">
+
                             <input type="submit" value="Sign Up" />
-                        </form>
                     </td>
                 </tr>
             </table>

@@ -19,5 +19,5 @@ Route::get('/', function () {
 
 route::get('/','HomeController@ShowHome');
 route::get('/register','AuthController@ShowRegister');
-route::post('/register','AuthController@PostRegister');
+route::post('/welcome','AuthController@PostRegister');
 route::get('/welcome','AuthController@ShowWelcome');
